@@ -1,4 +1,5 @@
 # code your #valid_move? method here
+include Comparable
 def valid_move?(board, index)
   if position_taken?(board, index) == false && index == between?(0, 8)
     true
